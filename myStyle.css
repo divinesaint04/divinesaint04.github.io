@@ -36,12 +36,12 @@
             }
             nav a {
                 text-decoration: none;
-                color: #fff;
+                color: #000000;
             }
     
             /* main container area beneath menu */
             main {
-                background: rgb((0, 102, 204);
+                background: rgb(51, 102, 153);
                 display: flex;
             }
             .sidebar {
@@ -61,4 +61,4 @@
             }
             div {border-style: ridge;
                border-width: 5px;
-              border-color: rgb(223, 159, 207;}
+              border-color: rgb(51, 102, 153);}

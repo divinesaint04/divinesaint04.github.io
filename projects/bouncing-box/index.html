@@ -9,8 +9,16 @@
 	<!-- BEGIN CSS -->
 	<style>
 		/* TODO 1 */
-		.board {
-		background-image: url("https://i.pinimg.com/originals/91/c5/94/91c59468b1637e719fa598e180830701.jpg");
+		[class="box"] {
+			display: block;
+			position: absolute;
+			width: 70px;
+			height: 70px;
+			top: 100px;
+			left: 0px;
+			background-color: purple;
+			font-size: 300%;
+			text-align: center;
 		}
 	</style>
 
@@ -61,7 +69,7 @@
 				direction = 1;
 			}
     		box.css('left', position);
-			};
+			}
 			
 
 
@@ -72,7 +80,7 @@
 				position = 0;
 				points = points + 1;
 				box.text(points);
-			};
+			}
 
 
 			//this calls update every 50 milliseconds
