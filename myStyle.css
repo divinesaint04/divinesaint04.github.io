@@ -1,5 +1,6 @@
   body {
                 background: rgb(51, 102, 153);
+
                 color: rgb(0, 0, 0);
                 padding: 10px;
                 font-family: italic;
@@ -15,8 +16,10 @@
     
             /* navigation menu */
             nav {
+
                 background: rgb(255, 214, 51);
                 margin: 10 auto;
+
                 margin-bottom: 20px;
                 display: flex;
                 padding: 10px;
@@ -41,7 +44,9 @@
     
             /* main container area beneath menu */
             main {
+
                 background: rgb(51, 102, 153);
+
                 display: flex;
             }
             .sidebar {
@@ -59,6 +64,12 @@
                 font-size: 1.25em;
                 
             }
-            div {border-style: ridge;
+            div {
+                border-style: ridge;
                border-width: 5px;
-              border-color: rgb(51, 102, 153);}
+
+              border-color: rgb(51, 102, 153);
+                
+            }
+
+
