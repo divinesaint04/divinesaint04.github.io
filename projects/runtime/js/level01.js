@@ -18,7 +18,8 @@ var level01 = function (window) {
             gameItems: [
                 {type: 'sawblade',x:400,y:groundY},
                 {type: 'sawblade',x:600,y:groundY},
-                {type: 'sawblade',x:900,y:groundY}
+                {type: 'sawblade',x:950,y:groundY}
+                
             ]
         };
         window.levelData = levelData;
@@ -42,10 +43,13 @@ var level01 = function (window) {
         
         myObstacle.addChild(obstacleImage);
         }
-        createSawBlade(556,453);
-        createSawBlade(821,368);
-        createSawBlade(1042,444);
-        createSawBlade(1200,359);
+        createSawBlade(556,433);
+        createSawBlade(771,332);
+        createSawBlade(1042,325);
+        createSawBlade(1200,462);
+        for(var i =0; i>levelData.gameItems.length;i++){
+            createSawBlade(levelData.gameItems[i].x,levelData.gameItems[i].y);
+        }
     };
 };
 

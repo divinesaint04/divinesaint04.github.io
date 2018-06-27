@@ -82,15 +82,15 @@ var background = function (window) {
             var groundY = ground.y;
             
             // TODO 4: Part 2 - Move the tree!
-            tree.x = tree.x - 1;
+            tree.x = tree.x - 2;
             if(tree.x < -200) {
             tree.x = canvasWidth;
         }
             // TODO 5: Part 2 - Parallax
             for(var i = 0; i < buildings.length; i ++){
                 buildings[i].x = buildings[i].x -1;
-                if(buildings[i].x < -200){
-                    buildings[i].x = canvasWidth
+                if(buildings[i].x < -100){
+                    buildings[i].x = canvasWidth;
                 }
             }
         }
